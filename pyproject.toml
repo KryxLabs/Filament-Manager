@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "filament-manager"
+version = "0.1.0"
+description = "A terminal application for managing 3D printer filaments"
+license = "MIT"
+authors = ["Gabriel Womelsdorf <gabriel.womelsdorf.23@cnu.edu>"]
+readme = "README.md"
+packages = [{include = "filament_manager"}]
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+textual = "^0.79.1"
+sqlalchemy = "^2.0.35"
+python-dotenv = "^1.0.1"
+pyyaml = "^6.0.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,37 @@
+database:
+  url: sqlite:///data/filaments.db
+
+version: 0.1.0
+
+brands:
+  - Overture
+  - Bambu
+  - Hatchbox
+  - Prusament
+  - Polymaker
+  - eSUN
+  - MatterHackers
+  - 3D Solutech
+  - ColorFabb
+  - AmazonBasics
+
+materials:
+  - PLA
+  - ABS
+  - PETG
+  - TPU (Flexible)
+  - Nylon
+  - Carbon Fiber Reinforced
+  - ASA
+  - Polycarbonate
+  - Wood-filled PLA
+  - Metal-filled PLA
+  - PEEK
+  - PEI (Ultem)
+  - HIPS
+  - TPE (Thermoplastic Elastomer)
+  - Glow-in-the-dark PLA
+  - Silk PLA
+  - Conductive PLA
+
+

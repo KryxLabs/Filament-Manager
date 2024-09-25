@@ -1,0 +1,66 @@
+/* Main container uses vertical layout */
+#main_container {
+    /* The Vertical container already handles vertical layout */
+    layout: grid;
+    grid-size: 1 2;
+    grid-rows: 85% 15%;
+    grid-columns: 1fr;
+    grid-gutter: 1;
+    margin: 0 2;
+}
+
+#addition_form {
+    layout:grid;
+    grid-size: 1 6;
+    margin: 0 2;
+    width: 30%;
+    height: auto;
+    align: center middle;
+    grid-gutter: 1;
+}
+
+#database_view {
+    layout:grid;
+    grid-size: 1 2;
+    margin: 0 2;
+    grid-rows: 85% 15%;
+    grid-gutter: 1;
+}
+/* Placeholder box occupies top two-thirds */
+#statistics {
+    height: 100%;
+    row-span: 1;
+    column-span: 1;
+    padding: 1;
+}
+
+/* Button container occupies bottom one-third */
+#button_container {
+    layout: grid;
+    grid-size: 5 1;
+    grid-gutter: 2;
+    height: auto;
+    row-span: 1;
+    column-span: 1;
+    content-align: left middle;
+}
+
+Input {
+    height: 100%;
+}
+
+/* Style the buttons */
+Button {
+    width: 100%;
+}
+
+/* Optional: Style the screen background and text */
+Screen {
+    background: #1e1e1e;
+    color: white;
+}
+
+ToastRack {
+    align: right top;
+    padding: 2 0;
+}
