@@ -11,7 +11,17 @@
 
 #addition_form {
     layout:grid;
-    grid-size: 1 6;
+    grid-size: 1 7;
+    margin: 0 2;
+    width: 30%;
+    height: auto;
+    align: center middle;
+    grid-gutter: 1;
+}
+
+#update_form {
+    layout:grid;
+    grid-size: 1 8;
     margin: 0 2;
     width: 30%;
     height: auto;
